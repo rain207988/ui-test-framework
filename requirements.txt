@@ -1,0 +1,8 @@
+# UI 自动化测试框架依赖（Python 3.13）
+# 安装：pip install -r requirements.txt
+selenium==4.51.0          # 浏览器驱动（4.6+ 内置 Selenium Manager 自动管理 chromedriver）
+pytest==9.1.1             # 测试框架与夹具体系
+allure-pytest==2.16.2     # 生成 Allure 结果文件（配合 Allure 命令行出报告）
+pytest-rerunfailures==16.7  # 失败自动重跑（--reruns）
+PyYAML==6.0.2             # 解析 config/config.yaml 与 data/users.yaml
+requests==2.34.2          # 调用被测系统 /api/test/reset 重置种子数据

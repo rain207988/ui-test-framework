@@ -1,0 +1,14 @@
+# 运行产物：本地产物不进版本库，保证仓库里只有"可复现的源"
+reports/
+screenshots/*
+!screenshots/.gitkeep
+logs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+allure-report/
+.idea/
+.vscode/
+.DS_Store
